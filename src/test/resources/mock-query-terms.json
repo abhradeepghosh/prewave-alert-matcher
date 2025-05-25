@@ -1,0 +1,5 @@
+[
+  {"id": 101, "text": "factory explosion", "language": "en", "keepOrder": true},
+  {"id": 102, "text": "strike", "language": "en", "keepOrder": true},
+  {"id": 103, "text": "accident", "language": "en", "keepOrder": false}
+]

@@ -1,0 +1,7 @@
+service/Main.class
+service/MatcherService.class
+model/Alert.class
+service/ApiService.class
+util/TextMatcher.class
+model/QueryTerm.class
+model/Alert$Content.class

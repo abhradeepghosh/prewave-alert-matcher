@@ -1,0 +1,15 @@
+[
+  {
+    "id": "alert1",
+    "contents": [
+      {"text": "factory explosion", "language": "en", "type": "incident"},
+      {"text": "fabrikexplosion", "language": "de", "type": "incident"}
+    ]
+  },
+  {
+    "id": "alert2",
+    "contents": [
+      {"text": "strike", "language": "en", "type": "event"}
+    ]
+  }
+]

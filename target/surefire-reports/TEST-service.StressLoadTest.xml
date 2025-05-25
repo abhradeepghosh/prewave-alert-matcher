@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="service.StressLoadTest" time="68.689" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/abhradeepghosh/Downloads/prewave-alert-matcher/target/test-classes:/Users/abhradeepghosh/Downloads/prewave-alert-matcher/target/classes:/Users/abhradeepghosh/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.3.1/httpclient5-5.3.1.jar:/Users/abhradeepghosh/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar:/Users/abhradeepghosh/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar:/Users/abhradeepghosh/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/abhradeepghosh/.m2/repository/org/json/json/20231013/json-20231013.jar:/Users/abhradeepghosh/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/abhradeepghosh/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/abhradeepghosh/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/abhradeepghosh/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/abhradeepghosh/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/abhradeepghosh/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/abhradeepghosh/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/abhradeepghosh/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/abhradeepghosh/Downloads/prewave-alert-matcher/target/surefire/surefirebooter-20250525183100201_3.jar /Users/abhradeepghosh/Downloads/prewave-alert-matcher/target/surefire 2025-05-25T18-31-00_150-jvmRun1 surefire-20250525183100201_1tmp surefire_0-20250525183100201_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/abhradeepghosh/Downloads/prewave-alert-matcher/target/test-classes:/Users/abhradeepghosh/Downloads/prewave-alert-matcher/target/classes:/Users/abhradeepghosh/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.3.1/httpclient5-5.3.1.jar:/Users/abhradeepghosh/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar:/Users/abhradeepghosh/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar:/Users/abhradeepghosh/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/abhradeepghosh/.m2/repository/org/json/json/20231013/json-20231013.jar:/Users/abhradeepghosh/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/abhradeepghosh/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/abhradeepghosh/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/abhradeepghosh/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/abhradeepghosh/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/abhradeepghosh/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/abhradeepghosh/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/abhradeepghosh/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/abhradeepghosh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/abhradeepghosh/Downloads/prewave-alert-matcher"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/abhradeepghosh/Downloads/prewave-alert-matcher/target/surefire/surefirebooter-20250525183100201_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="abhradeepghosh"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.4.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/abhradeepghosh/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/q_/5m8szpx56c7dsjwh16rvxnrc0000gn/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/abhradeepghosh/Downloads/prewave-alert-matcher"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/abhradeepghosh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testStressRunWithLiveAPI" classname="service.StressLoadTest" time="68.687">
+    <system-out><![CDATA[
+🚀 [Stress Load Test: 200 Runs]
+✔️ Run #001 → Matches: 4
+✔️ Run #002 → Matches: 5
+✔️ Run #003 → Matches: 4
+✔️ Run #004 → Matches: 4
+✔️ Run #005 → Matches: 4
+✔️ Run #006 → Matches: 5
+✔️ Run #007 → Matches: 4
+✔️ Run #008 → Matches: 5
+✔️ Run #009 → Matches: 3
+✔️ Run #010 → Matches: 5
+✔️ Run #011 → Matches: 3
+✔️ Run #012 → Matches: 5
+✔️ Run #013 → Matches: 4
+✔️ Run #014 → Matches: 4
+✔️ Run #015 → Matches: 2
+✔️ Run #016 → Matches: 5
+✔️ Run #017 → Matches: 3
+✔️ Run #018 → Matches: 3
+✔️ Run #019 → Matches: 3
+✔️ Run #020 → Matches: 3
+✔️ Run #021 → Matches: 2
+✔️ Run #022 → Matches: 5
+✔️ Run #023 → Matches: 5
+✔️ Run #024 → Matches: 7
+✔️ Run #025 → Matches: 7
+✔️ Run #026 → Matches: 6
+✔️ Run #027 → Matches: 3
+✔️ Run #028 → Matches: 4
+✔️ Run #029 → Matches: 3
+✔️ Run #030 → Matches: 4
+✔️ Run #031 → Matches: 3
+✔️ Run #032 → Matches: 3
+✔️ Run #033 → Matches: 4
+✔️ Run #034 → Matches: 3
+✔️ Run #035 → Matches: 2
+✔️ Run #036 → Matches: 3
+✔️ Run #037 → Matches: 5
+✔️ Run #038 → Matches: 3
+✔️ Run #039 → Matches: 4
+✔️ Run #040 → Matches: 5
+✔️ Run #041 → Matches: 4
+✔️ Run #042 → Matches: 4
+✔️ Run #043 → Matches: 4
+✔️ Run #044 → Matches: 5
+✔️ Run #045 → Matches: 4
+✔️ Run #046 → Matches: 5
+✔️ Run #047 → Matches: 3
+✔️ Run #048 → Matches: 5
+✔️ Run #049 → Matches: 3
+✔️ Run #050 → Matches: 5
+✔️ Run #051 → Matches: 4
+✔️ Run #052 → Matches: 4
+✔️ Run #053 → Matches: 2
+✔️ Run #054 → Matches: 5
+✔️ Run #055 → Matches: 3
+✔️ Run #056 → Matches: 3
+✔️ Run #057 → Matches: 3
+✔️ Run #058 → Matches: 3
+✔️ Run #059 → Matches: 2
+✔️ Run #060 → Matches: 5
+✔️ Run #061 → Matches: 5
+✔️ Run #062 → Matches: 7
+✔️ Run #063 → Matches: 7
+✔️ Run #064 → Matches: 6
+✔️ Run #065 → Matches: 3
+✔️ Run #066 → Matches: 4
+✔️ Run #067 → Matches: 3
+✔️ Run #068 → Matches: 4
+✔️ Run #069 → Matches: 3
+✔️ Run #070 → Matches: 3
+✔️ Run #071 → Matches: 4
+✔️ Run #072 → Matches: 3
+✔️ Run #073 → Matches: 2
+✔️ Run #074 → Matches: 3
+✔️ Run #075 → Matches: 5
+✔️ Run #076 → Matches: 3
+✔️ Run #077 → Matches: 4
+✔️ Run #078 → Matches: 5
+✔️ Run #079 → Matches: 4
+✔️ Run #080 → Matches: 4
+✔️ Run #081 → Matches: 4
+✔️ Run #082 → Matches: 5
+✔️ Run #083 → Matches: 4
+✔️ Run #084 → Matches: 5
+✔️ Run #085 → Matches: 3
+✔️ Run #086 → Matches: 5
+✔️ Run #087 → Matches: 3
+✔️ Run #088 → Matches: 5
+✔️ Run #089 → Matches: 4
+✔️ Run #090 → Matches: 4
+✔️ Run #091 → Matches: 2
+✔️ Run #092 → Matches: 5
+✔️ Run #093 → Matches: 3
+✔️ Run #094 → Matches: 3
+✔️ Run #095 → Matches: 3
+✔️ Run #096 → Matches: 3
+✔️ Run #097 → Matches: 2
+✔️ Run #098 → Matches: 5
+✔️ Run #099 → Matches: 5
+✔️ Run #100 → Matches: 7
+✔️ Run #101 → Matches: 7
+✔️ Run #102 → Matches: 6
+✔️ Run #103 → Matches: 3
+✔️ Run #104 → Matches: 4
+✔️ Run #105 → Matches: 3
+✔️ Run #106 → Matches: 4
+✔️ Run #107 → Matches: 3
+✔️ Run #108 → Matches: 3
+✔️ Run #109 → Matches: 4
+✔️ Run #110 → Matches: 3
+✔️ Run #111 → Matches: 2
+✔️ Run #112 → Matches: 3
+✔️ Run #113 → Matches: 5
+✔️ Run #114 → Matches: 3
+✔️ Run #115 → Matches: 4
+✔️ Run #116 → Matches: 5
+✔️ Run #117 → Matches: 4
+✔️ Run #118 → Matches: 4
+✔️ Run #119 → Matches: 4
+✔️ Run #120 → Matches: 5
+✔️ Run #121 → Matches: 4
+✔️ Run #122 → Matches: 5
+✔️ Run #123 → Matches: 3
+✔️ Run #124 → Matches: 5
+✔️ Run #125 → Matches: 3
+✔️ Run #126 → Matches: 5
+✔️ Run #127 → Matches: 4
+✔️ Run #128 → Matches: 4
+✔️ Run #129 → Matches: 2
+✔️ Run #130 → Matches: 5
+✔️ Run #131 → Matches: 3
+✔️ Run #132 → Matches: 3
+✔️ Run #133 → Matches: 3
+✔️ Run #134 → Matches: 3
+✔️ Run #135 → Matches: 2
+✔️ Run #136 → Matches: 5
+✔️ Run #137 → Matches: 5
+✔️ Run #138 → Matches: 7
+✔️ Run #139 → Matches: 7
+✔️ Run #140 → Matches: 6
+✔️ Run #141 → Matches: 3
+✔️ Run #142 → Matches: 4
+✔️ Run #143 → Matches: 3
+✔️ Run #144 → Matches: 4
+✔️ Run #145 → Matches: 3
+✔️ Run #146 → Matches: 3
+✔️ Run #147 → Matches: 4
+✔️ Run #148 → Matches: 3
+✔️ Run #149 → Matches: 2
+✔️ Run #150 → Matches: 3
+✔️ Run #151 → Matches: 5
+✔️ Run #152 → Matches: 3
+✔️ Run #153 → Matches: 4
+✔️ Run #154 → Matches: 5
+✔️ Run #155 → Matches: 4
+✔️ Run #156 → Matches: 4
+✔️ Run #157 → Matches: 4
+✔️ Run #158 → Matches: 5
+✔️ Run #159 → Matches: 4
+✔️ Run #160 → Matches: 5
+✔️ Run #161 → Matches: 3
+✔️ Run #162 → Matches: 5
+✔️ Run #163 → Matches: 3
+✔️ Run #164 → Matches: 5
+✔️ Run #165 → Matches: 4
+✔️ Run #166 → Matches: 4
+✔️ Run #167 → Matches: 2
+✔️ Run #168 → Matches: 5
+✔️ Run #169 → Matches: 3
+✔️ Run #170 → Matches: 3
+✔️ Run #171 → Matches: 3
+✔️ Run #172 → Matches: 3
+✔️ Run #173 → Matches: 2
+✔️ Run #174 → Matches: 5
+✔️ Run #175 → Matches: 5
+✔️ Run #176 → Matches: 7
+✔️ Run #177 → Matches: 7
+✔️ Run #178 → Matches: 6
+✔️ Run #179 → Matches: 3
+✔️ Run #180 → Matches: 4
+✔️ Run #181 → Matches: 3
+✔️ Run #182 → Matches: 4
+✔️ Run #183 → Matches: 3
+✔️ Run #184 → Matches: 3
+✔️ Run #185 → Matches: 4
+✔️ Run #186 → Matches: 3
+✔️ Run #187 → Matches: 2
+✔️ Run #188 → Matches: 3
+✔️ Run #189 → Matches: 5
+✔️ Run #190 → Matches: 3
+✔️ Run #191 → Matches: 4
+✔️ Run #192 → Matches: 5
+✔️ Run #193 → Matches: 4
+✔️ Run #194 → Matches: 4
+✔️ Run #195 → Matches: 4
+✔️ Run #196 → Matches: 5
+✔️ Run #197 → Matches: 4
+✔️ Run #198 → Matches: 5
+✔️ Run #199 → Matches: 3
+✔️ Run #200 → Matches: 5
+
+📊 Summary:
+→ Total Successful Runs : 200/200
+→ Total Matches Found    : 793
+→ Average Matches/Run    : 3
+✅ Stress test complete.
+
+]]></system-out>
+  </testcase>
+</testsuite>
