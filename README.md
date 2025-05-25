@@ -139,6 +139,12 @@ For simplicity, this project uses `System.out.println` for regular logs and `Sys
 
 ---
 
+## 📎 Commit Strategy
+
+📌 This project was committed in a single push to suit the assignment purpose. In a real-world scenario, the implementation would follow incremental commits and CI-based version control best practices.
+
+---
+
 ## 🙌 Thanks
 
 This project is designed with clarity, maintainability, and testability in mind.
