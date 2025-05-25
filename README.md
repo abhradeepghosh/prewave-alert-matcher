@@ -139,6 +139,13 @@ For simplicity, this project uses `System.out.println` for regular logs and `Sys
 
 ---
 
+<sub>
+📌 This project was committed in a single push for assignment clarity.  
+In a production setting, the implementation would follow incremental commits and CI-based version control best practices.
+</sub>
+
+---
+
 ## 🙌 Thanks
 
 This project is designed with clarity, maintainability, and testability in mind.
